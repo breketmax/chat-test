@@ -15,6 +15,7 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "semi": ["error", "always"],
-    "space-before-function-paren": ["error", "never"]
+    "space-before-function-paren": ["error", "never"],
+    "quotes": ["error", "double"]
   }
 }
