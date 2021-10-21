@@ -1,0 +1,36 @@
+.login-page {
+  background-image: url("../../../image/Frame.svg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-color: #eff5ff;
+  background-position: right;
+  background-size: 50% 100%;
+}
+.login-block {
+  width: 50%;
+  background-color: #fff;
+  min-height: 100vh;
+  position: relative;
+}
+.login-block-content {
+  position: absolute;
+  top: 50%;
+
+  margin-left: 121px;
+  transform: translateY(-50%);
+}
+.logo {
+  background-image: url("../../../image/logo.svg");
+  width: 100px;
+  background-size: 112px 43px;
+}
+.chatty {
+  color: #5e94e8;
+}
+.excl-mark {
+  color: #b4cef8;
+}
+
+h2 {
+  margin-top: 24px;
+}

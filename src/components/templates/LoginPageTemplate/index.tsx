@@ -1,0 +1,1 @@
+export { LoginPageTemplate } from "./LoginPageTemplate";

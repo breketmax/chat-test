@@ -1,0 +1,104 @@
+input {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  padding: 16px;
+  position: relative;
+}
+.error {
+  position: relative;
+}
+.error::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-image: url("../../../image/errorInputIcon.svg");
+  position: absolute;
+  right: 10px;
+  bottom: 18px;
+  z-index: 2;
+}
+.error::after {
+  content: "Something goes wrong";
+  display: block;
+  position: absolute;
+  color: #fb6262;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 4px;
+  margin-left: 8px;
+}
+.input-login {
+  width: 322px;
+  height: 24px;
+  border-radius: 8px;
+  border: 1px solid #b3cdf8;
+  &__typing {
+    border: 1px solid #5c98f1;
+    width: 322px;
+    height: 24px;
+    border-radius: 8px;
+  }
+  &__error {
+    width: 322px;
+    height: 24px;
+    border-radius: 8px;
+    border: 1px solid #fb6262;
+  }
+}
+.input-password__ {
+  &initial {
+    width: 322px;
+    height: 24px;
+    border-radius: 8px;
+    border: 1px solid #b3cdf8;
+    margin-bottom: 48px;
+  }
+  &typing {
+    width: 322px;
+    height: 24px;
+    border-radius: 8px;
+    border: 1px solid #5c98f1;
+    margin-bottom: 48px;
+  }
+}
+
+.login-button__ {
+  &regular {
+    width: 233px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #5c98f1;
+    color: white;
+    border: none;
+    display: block;
+    text-align: center;
+  }
+  &inactive {
+    background-color: #d1d1d1;
+    width: 233px;
+    height: 56px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    display: block;
+    text-align: center;
+  }
+  &regular:hover {
+    background-color: #4583de;
+  }
+  &regular:active {
+    background-color: #2c6ac7;
+  }
+}
