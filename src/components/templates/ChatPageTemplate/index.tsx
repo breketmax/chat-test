@@ -1,0 +1,1 @@
+export { ChatPageTemplate } from "./ChatPageTemplate";

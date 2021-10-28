@@ -1,0 +1,71 @@
+.user-chat-block {
+  width: calc(100% - 362px);
+  min-height: calc(100vh - 81px);
+  background: url("../../../../image/chat-background.svg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.user-chat-send-message {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  vertical-align: bottom;
+  width: 1173px;
+  height: 80px;
+}
+.user-chat-messages {
+  height: calc(100vh - 256px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.user-chat-header {
+  height: 96px;
+  background-color: #fff;
+  border-bottom: 1px solid #d7e6ff;
+  padding-top: 24px;
+  box-sizing: border-box;
+  padding-left: 24px;
+  border-left: 1px solid #88abe3;
+  h3 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+    margin-top: 4px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #949494;
+  }
+}
+.attach-button {
+  width: 80px;
+  height: 80px;
+  background: url("../../../../image/skrepa.svg") no-repeat #fff;
+  border: none;
+  padding: 0;
+  background-position: 50% 50%;
+  border-left: 1px solid #88abe3;
+  cursor: pointer;
+}
+.send-field {
+  width: 993px;
+  border: none;
+}
+.send-field::placeholder {
+  color: #cacaca;
+}
+.send-button {
+  width: 80px;
+  height: 80px;
+  background: url("../../../../image/send.svg") no-repeat #fff;
+  border: none;
+  padding: 0;
+  background-position: 50% 50%;
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+header {
+  width: 100%;
+  min-height: 80px;
+  border-bottom: 1px solid #88abe3;
+}
+header .profile-button {
+  display: inline-block;
+  vertical-align: middle;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+header img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header-content {
+  height: 80px;
+  position: relative;
+}
+.header-content:before {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  content: "";
+}

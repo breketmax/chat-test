@@ -44,33 +44,53 @@ input {
   height: 24px;
   border-radius: 8px;
   border: 1px solid #b3cdf8;
+  @media (max-width: 380px) {
+    width: 316px;
+  }
   &__typing {
     border: 1px solid #5c98f1;
     width: 322px;
     height: 24px;
     border-radius: 8px;
+    @media (max-width: 380px) {
+      width: 316px;
+    }
   }
   &__error {
     width: 322px;
     height: 24px;
     border-radius: 8px;
     border: 1px solid #fb6262;
+    @media (max-width: 380px) {
+      width: 316px;
+    }
   }
 }
-.input-password__ {
-  &initial {
-    width: 322px;
-    height: 24px;
-    border-radius: 8px;
-    border: 1px solid #b3cdf8;
-    margin-bottom: 48px;
+.input-password {
+  width: 322px;
+  height: 24px;
+  border-radius: 8px;
+  border: 1px solid #b3cdf8;
+  @media (max-width: 380px) {
+    width: 316px;
   }
-  &typing {
+  &__typing {
     width: 322px;
     height: 24px;
     border-radius: 8px;
     border: 1px solid #5c98f1;
-    margin-bottom: 48px;
+    @media (max-width: 380px) {
+      width: 316px;
+    }
+  }
+  &__error {
+    width: 322px;
+    height: 24px;
+    border-radius: 8px;
+    border: 1px solid #fb6262;
+    @media (max-width: 380px) {
+      width: 316px;
+    }
   }
 }
 
@@ -84,6 +104,11 @@ input {
     border: none;
     display: block;
     text-align: center;
+    margin-top: 48px;
+    @media (max-width: 380px) {
+      width: 347px;
+      margin-top: 80px;
+    }
   }
   &inactive {
     background-color: #d1d1d1;
@@ -94,6 +119,11 @@ input {
     border: none;
     display: block;
     text-align: center;
+    margin-top: 48px;
+    @media (max-width: 380px) {
+      width: 347px;
+      margin-top: 80px;
+    }
   }
   &regular:hover {
     background-color: #4583de;

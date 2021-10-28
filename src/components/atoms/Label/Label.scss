@@ -9,4 +9,7 @@ label {
   display: flex;
   margin-bottom: 4px;
   margin-top: 32px;
+  @media (min-width: 375px) {
+    margin-top: 24px;
+  }
 }

@@ -1,4 +1,17 @@
 .login-form {
   margin-top: 48px;
   width: 354px;
+  input[type="submit"] {
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  @media (max-width: 380px) {
+    margin-top: 100px;
+    width: 349px;
+  }
+}
+.disable {
+  pointer-events: none;
 }

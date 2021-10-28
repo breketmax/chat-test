@@ -1,0 +1,31 @@
+.start-chat-block {
+  width: calc(100% - 362px);
+  min-height: calc(100vh - 81px);
+  background: url("../../../../image/chat-background.svg") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.start-chat-block:before {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  content: "";
+}
+.start-chat-button-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+.start-chat-button {
+  width: 339px;
+  height: 56px;
+  border: 1px solid #5e93e7;
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  margin: 0 auto;
+}

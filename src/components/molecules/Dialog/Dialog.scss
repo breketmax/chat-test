@@ -1,0 +1,52 @@
+.dialog-item {
+  height: 48px;
+  padding: 12px 24px;
+  a {
+    text-decoration: none;
+  }
+  img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+}
+.user-info {
+  display: inline-block;
+  margin-left: 12px;
+  text-align: left;
+  vertical-align: top;
+  p {
+    margin: 0;
+    color: #949494;
+    margin-top: 4px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  h4 {
+    margin: 0;
+    color: #333333;
+    margin-top: 4px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  span {
+    color: #5e93e7;
+  }
+}
+.active > .dialog-item {
+  background-color: #5c98f1;
+  h4,
+  p,
+  span {
+    color: white;
+  }
+}
