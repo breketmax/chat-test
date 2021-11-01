@@ -4,7 +4,7 @@ interface MessageType {
   from: string;
   text: string;
 }
-export const Message: React.FC<MessageType> = ({ from, text }) => {
+export const Message: React.FC<MessageType> = ({ from, text }: MessageType) => {
   return (
     <div className={"message-from-" + from}>
       <p>{text}</p>

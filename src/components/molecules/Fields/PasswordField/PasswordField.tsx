@@ -13,7 +13,7 @@ export const PasswordField: React.FC<PasswordFieldType> = ({
   divPasswordState,
   validPasswordState,
   inputPasswordState,
-}) => {
+}: PasswordFieldType) => {
   return (
     <div className={divPasswordState}>
       <Label id="password" text="Password" />

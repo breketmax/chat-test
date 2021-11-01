@@ -10,7 +10,7 @@ interface usersInfoType {
 interface DialogsType {
   usersInfo: Array<usersInfoType>;
 }
-export const Dialogs: React.FC<DialogsType> = ({ usersInfo }) => {
+export const Dialogs: React.FC<DialogsType> = ({ usersInfo }: DialogsType) => {
   return (
     <div className="dialogs-list">
       {usersInfo.map((user) => {
@@ -26,10 +26,6 @@ export const Dialogs: React.FC<DialogsType> = ({ usersInfo }) => {
           />
         );
       })}
-      {/* <Dialog userName="Konstantin Konstantinopolski" lastMessageFromUser={false} lastMessage="Hey!" to ="/chat/1"/>
-      <Dialog userName="Marina Joe" lastMessageFromUser={true} lastMessage="Sed ut per..." to ="/chat/2"/>
-      <Dialog userName="Ernest Gillroy" lastMessageFromUser={true} lastMessage="How are you doing?" to ="/chat/3"/>
-      <Dialog userName="Konstantin Konstantinopolski" lastMessageFromUser={false} lastMessage="Hey!" to ="/chat/4"/> */}
     </div>
   );
 };

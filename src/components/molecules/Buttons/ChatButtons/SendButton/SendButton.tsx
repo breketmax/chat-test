@@ -8,6 +8,6 @@ interface SendButtonType {
 export const SendButton: React.FC<SendButtonType> = ({
   className,
   onClick,
-}) => {
+}: SendButtonType) => {
   return <Button onClick={onClick} className={className} />;
 };

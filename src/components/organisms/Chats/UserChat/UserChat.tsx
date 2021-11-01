@@ -25,9 +25,7 @@ export const UserChat = (
     setMessageText(event.currentTarget.value);
   };
   const sendMessageHandle = () => {
-    console.log(messageText);
     setMessage({ text: messageText, from: "user" });
-    console.log(message);
   };
   React.useEffect(() => {
     if (message.text) {
@@ -45,10 +43,6 @@ export const UserChat = (
           const id = messages.indexOf(obj) + 1;
           return <Message from={obj.from} text={obj.text} key={id} />;
         })}
-        {/* <Message from="friend" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem"/>
-        <Message from="user" text="SeSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.  accusantium doloremque laudantium, totam re"/>
-        <Message from="friend" text="SeSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."/>
-        <Message from="user" text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusanti"/> */}
       </div>
       <div className="user-chat-send-message">
         <AttachButton className="attach-button" />

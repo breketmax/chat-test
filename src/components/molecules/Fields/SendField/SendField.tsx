@@ -6,7 +6,10 @@ interface SendFieldType {
   onChange: React.FormEventHandler;
 }
 
-export const SendField: React.FC<SendFieldType> = ({ className, onChange }) => {
+export const SendField: React.FC<SendFieldType> = ({
+  className,
+  onChange,
+}: SendFieldType) => {
   return (
     <Input
       className={className}

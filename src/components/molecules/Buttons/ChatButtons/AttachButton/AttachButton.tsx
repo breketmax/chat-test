@@ -8,6 +8,6 @@ interface AttachButtonType {
 export const AttachButton: React.FC<AttachButtonType> = ({
   className,
   onClick,
-}) => {
+}: AttachButtonType) => {
   return <Button onClick={onClick} className={className} />;
 };
